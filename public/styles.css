@@ -1,0 +1,170 @@
+#jumbo{
+  background-image: url("https://i.imgur.com/yxuzJoi.jpg");
+}
+
+#album-jumbo{
+  background-image: url("https://i.imgur.com/Zv9eUKq.jpg");
+}
+
+#tour-jumbo{
+  background-image: url("https://i.imgur.com/9ZXgtJB.jpg");
+}
+
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Baskervville", "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Baskervville","Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+/* Jumbotron Title text */
+.display-4 {
+  font-size: 2.5rem;
+}
+
+.blog-post {
+  margin-bottom: 4rem;
+}
+
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+.album{
+  max-width: 75%;
+  height: auto;
+}
+
+.review{
+  max-width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#myCarousel{
+  margin-left: 25px;
+  max-width: 80%;
+  border: 1px solid rgb(206, 202, 202);
+}
+
+.carousel-inner > .carousel-item > img{
+  max-width: 100%;
+  height: auto;
+}
+
+.top{
+  padding-bottom: 5px !important;
+}
+
+.bottom{
+  padding-top: 30px !important;
+  margin-left: 8% !important;
+}
+
+
+/* Source for below code:
+https://stackoverflow.com/questions/49391266/change-bootstrap-4-carousel-control-colors */
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+/* --------------------------------------------------------------------------------------- */
+
+.carousel-indicators li {
+  background-color: grey;
+}
+
+.carousel-indicators {
+  bottom: -45px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+  bottom: -113%;
+}
+
+.form-container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.create-account{
+  margin: 0 auto;
+  width:75%;
+  padding-bottom: 200px;
+}
+
+#reset{
+  margin-left: 20%;
+}
+
+
+#scrollarea-invalid {
+  overflow-y: scroll;
+  height: 350px;
+}
+
+#scrollarea-content{
+    min-height:75%;
+}
+
+.citation{
+  font-size: 12px;
+  opacity: 75%;
+  width: 100%
+}
+
+.country{
+  padding-top: 35px;
+  width: 50%;
+  float: right;
+  height: auto;
+}
+
+.sub-tour{
+  display: inline-block;
+  width: 50%;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.source{
+  font-size: 14px;
+}

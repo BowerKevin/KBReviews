@@ -1,0 +1,22 @@
+Home page jumbotron image source: https://rb.gy/xecijw
+
+Album-rankings page jumbotron image source: https://wallpaperaccess.com/radiohead
+
+Tour-dates page jumbotron image source: https://wallpaperaccess.com/radiohead  
+
+Album images are all sourced from Wikipedia:
+OK Computer: https://en.wikipedia.org/wiki/File:Radioheadokcomputer.png
+	The cover art copyright is believed to belong to the label, Parlophone and Capitol Records, or the graphic artist(s), Stanley Donwood and the White Chocolate Farm..
+Kid A: https://en.wikipedia.org/wiki/File:Radioheadkida.png
+	The cover art copyright is believed to belong to the label, Parlophone, Capitol, or the graphic artist(s), Stanley Donwood and Thom Yorke.
+The Bends: https://en.wikipedia.org/wiki/File:Radioheadthebends.png
+	The cover art copyright is believed to belong to the label, Parlophone (international) / Capitol, or the graphic artist(s).
+Amnesiac: https://en.wikipedia.org/wiki/File:Radiohead_-_Amnesiac_cover.png
+	The cover art copyright is believed to belong to the label, Parlophone/Capitol, or the graphic artist(s), Stanley Donwood
+Hail to the Thief: https://en.wikipedia.org/wiki/File:Radioheadhailtothethief.png
+	The cover art copyright is believed to belong to the label, Capitol Records, Parlophone, or the graphic artist(s).
+In Rainbows: https://en.wikipedia.org/wiki/File:Inrainbowscover.png
+	The cover art copyright is believed to belong to the record label or the graphic artist(s).
+A Moon Shaped Pool: https://en.wikipedia.org/wiki/File:Amoonshapedpool.png
+	 The cover art copyright is believed to belong to XL Recordings.
+

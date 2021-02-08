@@ -1,0 +1,174 @@
+{{!-- Sources are cited in main.handlebars --}}
+
+<body>
+    <div class="container">
+        <header class="blog-header py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-4 pt-1">
+                </div>
+                <div class="col-4 text-center">
+                    <a class="blog-header-logo text-dark" href="/">KB Reviews</a>
+                </div>
+
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <nav class="nav d-flex justify-content-end">
+                        <a class="p-2 text-muted" href="/">History</a>
+                        <a class="p-2 text-muted" href="/album-rankings">Album Rankings</a>
+                    </nav>
+
+                    <div class="col-4 d-flex justify-content-end align-items-center">
+                        <a class="text-muted" href="#" aria-label="Search"></a>
+                        <a class="btn btn-sm btn-outline-secondary" href="/sign-up">Sign up</a>
+                    </div>
+                </div>
+        </header>
+    </div>
+
+    <div class="container">
+        <div id="tour-jumbo" class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+            <div class="col-md-6 px-0">
+                <h1 class="display-4 font-italic">Tour - 2021</h1>
+                <p class="lead my-3">No matter what happens now you shouldn't <br>
+                    be afraid. Because I know today has been the <br>
+                    most perfect day I've ever seen.<br>
+                    - "Videotape" - <em>In Rainbows</em></p>
+            </div>
+        </div>
+    </div>
+
+    <main role="main" class="container">
+        <div class="row">
+            <div class="col-md-8 blog-main">
+                <h2 class="blog-post-title">Overview</h2>
+                <p> Radiohead will begin tour in Feburary of 2021. They will do a European tour visting
+                    numerous countries until March. They will then head to North America to tour Canada and finally
+                    end in the United States.</p>
+
+                <hr>
+                <div class="tour-list">
+                    <div class="sub-tour">
+                        <h3>Dates and Locations</h3>
+                        <h5>Europe</h5>
+                        <ul>
+                            <li>London, United Kingdom - 02-07-2021</li>
+                            <li>Birmingham, United Kingdom - 02-09-2021</li>
+                            <li>Amsterdam, Netherlands - 02-12-2021</li>
+                            <li>Berlin, Germany - 02-14-2021</li>
+                            <li>Warsaw, Poland - 02-20-2021</li>
+                            <li>Paris, France - 02-26-2021</li>
+                            <li>Barcelona, Spain - 03-04-2021</li>
+                            <li>Madrid, Spain - 03-06-2021</li>
+                            <li>Athens, Greece - 03-10-2021</li>
+                            <li>Istanbul, Turkey - 03-15-2021</li>
+                            <li>Moscow, Russia - 03-21-2021</li>
+                            <li>Saint Petersburg, Russia - 03-26-2021</li>
+                        </ul>
+                    </div>
+
+                    <img class="country" src="https://i.imgur.com/kQK455B.png">
+
+                    <div class="sub-tour">
+
+                        <h5>North America</h5>
+                        <h6>Canada</h6>
+                        <ul>
+                            <li>Toronto, Ontario - 03-30-2021</li>
+                            <li>Hamilton, Ontario - 04-05-2021</li>
+                            <li>Windsor, Ontario - 04-09-2021</li>
+                            <li>Montreal, Quebec - 04-13-2021</li>
+                            <li>Quebec City, Quebec - 04-16-2021</li>
+                            <li>Halifax, Nova Scotia - 04-21-2021</li>
+                            <li>Calgary, Alberta - 04-23-2021</li>
+                            <li>Edmonton, Alberta - 04-24-2021</li>
+                            <li>Victoria, British Columbia - 04-27-2021</li>
+                            <li>Vancouver, British Columbia - 05-03-2021</li>
+                            <li>Winnipeg, Manitoba - 05-07-2021</li>
+                            <li>Saskatoon, Saskatchewan - 05-13-2021</li>
+                        </ul>
+                    </div>
+                    <img class="country" src="https://i.imgur.com/Sq4BAU3.png">
+                    <div class="sub-tour">
+                        <h6>United States</h6>
+                        <ul>
+                            <li>New York City, New York - 05-21-2021</li>
+                            <li>Philadelphia, Pennsylvania - 05-24-2021</li>
+                            <li>Columbus, Ohio - 05-27-2021</li>
+                            <li>Atlanta, Georgia - 06-04-2021</li>
+                            <li>Tallahassee, Florida - 06-05-2021</li>
+                            <li>Chicago, Illinois - 06-10-2021</li>
+                            <li>Houston, Texas - 06-12-2021</li>
+                            <li>Austin, Texas - 06-13-2021</li>
+                            <li>Phoenix, Arizona - 06-16-2021</li>
+                            <li>Los Angeles, California - 06-21-2021</li>
+                            <li>San Diego, California - 06-25-2021</li>
+                        </ul>
+                    </div>
+                    <img class="country" src="https://i.imgur.com/Hz7KSHI.png">
+
+                </div>
+
+            </div>
+
+            <d class="col-md-4 blog-sidebar">
+                <div class="p-4 mb-3 bg-light rounded">
+                    <h4 class="font-italic">Don't see your city? Add your own stops!</h4>
+
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" name="text" class="form-control" id="city" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">State</label>
+                        <input type="text" name="text" class="form-control" id="state" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Country
+                        </label>
+                        <input type="text" name="username" class="form-control" id="country" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Date
+                        </label>
+                        <input type="date" name="date" class="form-control" id="date" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-outline-success" id="add-stop">Add Stop</button>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="reset" class="btn btn-outline-danger" value="Reset" id="reset">
+                        </div>
+                    </div>
+
+                    Omit or include the State field depending on location
+
+                </div>
+
+                <div class="p-4">
+                    <h4 class="font-italic">Added Stops</h4>
+                </div>
+
+                <div class="p-stops">
+                </div>
+
+                <div id='scrollarea-invalid'>
+                    <div id='scrollarea-content'>
+
+                        <ul id="stop-list">
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="p-4">
+                    <h6>Image Sources</h6>
+                    <div class="citation">
+                        Jumbotron: https://wallpaperaccess.com/radiohead <br><br>
+                        Maps: Created with mapchart.net
+                    </div>
+
+                </div>
+                </aside>
+        </div>
+    </main>
+</body>
